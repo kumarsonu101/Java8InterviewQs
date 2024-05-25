@@ -1,8 +1,6 @@
 package com.crackTheCode.Java8.InterviewCodingQs;
 
-import java.util.Arrays;
 import java.util.LinkedHashMap;
-import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 

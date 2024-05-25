@@ -1,7 +1,6 @@
 package com.crackTheCode.Java8.InterviewCodingQs;
 
 import java.util.List;
-import java.util.OptionalDouble;
 
 public class SquareFilterAndAverage {
     public static void main(String[] args) {

@@ -2,7 +2,6 @@ package com.crackTheCode.Java8.InterviewCodingQs;
 
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class FindMaxAndMin {
     public static void main(String[] args) {

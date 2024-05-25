@@ -2,8 +2,6 @@ package com.crackTheCode.Java8.InterviewCodingQs;
 
 import java.util.Collections;
 import java.util.List;
-import java.util.Optional;
-import java.util.stream.Collectors;
 
 public class Get2ndHighestAndLowest {
     public static void main(String[] args) {
@@ -18,4 +16,8 @@ public class Get2ndHighestAndLowest {
                 .limit(2).skip(1).findFirst().orElse(0);
         System.out.println(secondSmallest);
     }
+
+    /*
+     * Optional<Integer> secondLargest = list.stream().distinct().sorted(Comparator.reverseOrder()).skip(1).findFirst();
+     */
 }

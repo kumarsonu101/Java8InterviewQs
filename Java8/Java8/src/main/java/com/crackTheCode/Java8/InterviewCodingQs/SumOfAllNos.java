@@ -7,5 +7,11 @@ public class SumOfAllNos {
         List<Integer> list = List.of(5,9,8,7,1,2,10,3,6);
         int res = list.stream().filter(x->x%2 == 0).reduce(0,(a,b)->a+b);
         System.out.println(res);
+
+        /*
+         * Here java's 8 sum method is used to find out sum
+         */
+        //int SumOfAllNos = list.stream().mapToInt(Integer::valueOf).sum();
+       //System.out.println("Here is the sum" + " " + SumOfAllNos);
     }
 }
